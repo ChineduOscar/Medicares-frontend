@@ -5,7 +5,7 @@ const messageInput = document.getElementById("messageInput");
 const messageBox = document.getElementById("messageBox");
 const sendBtn = document.getElementById("sendBtn")
 
-const API_URL = "https://medicares-backend-api.onrender.com";
+const API_URL = "https://medicares-backend-api.onrender.com/contact";
 
 contactForm.addEventListener("submit", submitMessage);
 
