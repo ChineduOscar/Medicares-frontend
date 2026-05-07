@@ -3,7 +3,7 @@ const emailInput = document.getElementById('emailInput')
 const subscribeBtn = document.getElementById("subscribeBtn");
 const messageBox = document.getElementById("messageBox")
 
-const API_URL = "http://localhost:3000/subscribe/send";
+const API_URL = "https://medicares-backend-api.onrender.com";
 
 subscribeForm.addEventListener('submit', submitMessage)
 
